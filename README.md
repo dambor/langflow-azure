@@ -23,7 +23,7 @@ cd langflow-aks
 Create a copy of the example variables file:
 
 ```bash
-cp terraform.tfvars.example terraform.tfvars
+cp dev.tfvars.example dev.tfvars
 ```
 Open `terraform.tfvars` in your editor and replace the placeholder values with your actual Azure credentials:
 
