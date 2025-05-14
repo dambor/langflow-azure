@@ -1,0 +1,67 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which might contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Exclude any potential local kubeconfig files
+*kubeconfig*
+.kube/
+
+# Terraform provider files
+.terraformrc
+terraform.rc
+
+# Sensitive values that might be in local environment
+.env
+.envrc
+*.env
+
+# Sensitive credential files
+/credentials/
+/creds/
+*.pem
+*.key
+*.pub
+*.cer
+*.crt
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+
+# Log files
+*.log
+
+# Configuration files specific to your environment
+values.yaml
+values.*.yaml
+*.override.yaml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

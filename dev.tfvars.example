@@ -1,0 +1,12 @@
+# Azure credentials
+azure_subscription_id = "your-subscription-id"
+azure_client_id       = "your-service-principal-client-id"
+azure_client_secret   = "your-service-principal-secret"
+azure_tenant_id       = "your-tenant-id"
+
+# Resource configuration
+resource_group_name = "langflow-aks-rg"
+location            = "East US"
+aks_cluster_name    = "langflow-aks"
+node_count          = 2
+node_size           = "Standard_B4ms"
